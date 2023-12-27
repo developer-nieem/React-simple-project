@@ -4,7 +4,6 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 const Header = () => {
 
 const menu = <>
-
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
@@ -13,13 +12,6 @@ const menu = <>
 </>
 
 const [mNav , setMNav] =  useState(false)
-
-
-console.log(mNav);
-
-
-
-
 
     return (
         <header className="flex justify-between p-6 shadow-lg items-center">
