@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -9,6 +10,7 @@ const menu = <>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Projects</a></li>
+                    <li><Link to='/dashboard'>Dashboard</Link></li>
 </>
 
 const [mNav , setMNav] =  useState(false)
